@@ -1,0 +1,12 @@
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+.list-group-item
+{
+    list-style: none;
+    border: none;
+}
+.page-section{
+    font-family: 'Lato', sans-serif;
+}

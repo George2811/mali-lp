@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Mali</title>
+</head>
+<body>
+    <!---Barra Menu-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <a href="https://mali.pe/"><img src="img/logotipo_MALI.gif" width="85" height="60" alt=""></a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#">Inofrmación <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Requisitos</a>
+                <a class="nav-link" href="#">Formulario</a>
+            </div>
+        </div>
+    </nav>
+    <!---Primera Sección(Participa)-->
+    <div class="row align-items-center my-5">
+        <div class="col-lg-7">
+            <img class="img-fluid rounded mb-4 mb-lg-0" src="img/Foto_Principal.jpg" alt="">
+        </div>
+        <div class="col-lg-5">
+            <h1 class="font-weight-light ">"El mundo desde mi ventana"</h1>
+            <p>¡Envíanos tu fotografía, y participa de esta exposición!
+                Nuestra sociedad atraviesa momentos difíciles a causa de la pandemia, expresa en una foto en blanco y negro tomada desde tu ventana, como ha cambiado la vida en este aislamiento.</p>
+            <a class="btn btn-dark" href="#">Participa ahora</a>
+        </div>
+
+    </div>
+    <!--Requisitos-->
+    <div class="row align-items-center my-5 mb-5">
+        <div class="col-lg-5">
+            <h1 class="font-weight-light pl-5">Requisitos</h1>
+            <ul class="list-group list-unstyled pl-5">
+                <li class="list-group-item">>Imágenes de alta resolución.</li>
+                <li class="list-group-item">>URL de la imágen accesible.</li>
+                <li class="list-group-item">>Residencia en la ciudad de Lima.</li>
+                <li class="list-group-item">>Ser mayor de edad.</li>
+            </ul>
+        </div>
+        <div class="col-lg-7 mb-5">
+            <img class="img-fluid rounded mb-4 mb-lg-0" src="img/requisitos.jpg" alt="">
+        </div>
+    </div>
+
+    <!--Fotos-->
+    <div class="text-center mt-5 mb-5">
+        <h1 class="section-heading">Galería</h1>
+        <h4 class="section-subheading">Muestra de fotos enviadas.</h4>
+    </div>
+    <div class="row mb-5">
+        <div class="col d-flex flex-row justify-content-center align-items-center">
+            <img src="img/parque.jpg" width="680" height="480">
+        </div>
+        <div class="col d-flex flex-row justify-content-center align-items-center">
+            <img src="img/edificio.jpg" width="680" height="480">
+        </div>
+    </div>
+
+    <!--Formulario-->
+    <section class="page-section mt-5 bg-dark">
+        <div class="container mt-5">
+            <h1 class="page-section-heading text-center mt-5 mb-0 text-light">Participa</h1>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">Nombre</label>
+                                <input class="form-control" type="text" placeholder="Nombre" required="required" data-validation-required-message="Ingresa tu nombre." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">DNI</label>
+                                <input class="form-control" type="text" placeholder="DNI" required="required" data-validation-required-message="Ingresa tu DNI.." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">Dirección</label>
+                                <input class="form-control" type="text" placeholder="Dirección" required="required" data-validation-required-message="Ingresa tu DNI.." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">Número telefónico</label>
+                                <input class="form-control" type="tel" placeholder="Número telefónico" required="required" data-validation-required-message="Ingresa tu numero." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">E-mail</label>
+                                <input class="form-control" type="email" placeholder="Email Address" required="required" data-validation-required-message="Ingresa tu E-mail." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">URL de la imágen</label>
+                                <input class="form-control" type="Url" placeholder="Url" required="required" data-validation-required-message="Ingresa la URL." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">Fecha</label>
+                                <input class="form-control" type="datetime-local" placeholder="Fecha" required="required" data-validation-required-message="Ingresa la fecha." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label class="text-light">Descripción de la imágen</label>
+                                <textarea class="form-control" rows="5" placeholder="Descripción" required="required" data-validation-required-message="Ingresa la descripción."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div id="success"></div>
+                        <div class="form-group"><button class="btn btn-light btn-xl"  type="submit">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
